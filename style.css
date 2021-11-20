@@ -1,0 +1,303 @@
+:root {
+	--color-pencel: #4a5258;
+	--color-primary: #30aaf3;
+	--color-gray_weak: #ebf0f3;
+	--color-gray: #dfe7ed;
+	--color-gray_strong: #6b7d87;
+	--wrap: 720px;
+	--layer-on: 1;
+	--layer-modal: 50;
+}
+
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	word-break: keep-all;
+	font-family: Spoqa Han Sans,sans-serif;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+	margin: 0;
+}
+
+p, a, li {
+	color: var(--color-pencel);
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.2;
+}
+
+h1 strong {
+	border-bottom: 2px solid;
+	display: inline-block;
+	color: var(--color-primary);
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h2::after {
+	content: ' ';
+	display: block;
+	background-color: var(--color-primary);
+	width: 2.5rem;
+	height: .25rem;
+	margin-top: .5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+
+section {
+	padding: 2rem 0;
+}
+
+section > *:not(:first-child) {
+	margin-top: 2rem;
+}
+
+
+ul {
+	padding-left: 1.5rem;
+}
+
+li {
+	position: relative;
+	list-style: none;
+}
+
+li::after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: -1rem;
+	width: 4px;
+	height: 4px;
+	background-color: var(--color-primary);
+}
+
+li:not(:first-child) {
+	margin-top: .25em;
+}
+
+main {
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+
+.wrapper {
+	max-width: var(--wrap);
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.desc {
+	font-size: 1.5rem;
+	white-space: pre-line;
+}
+
+
+
+.contact__item {
+	margin: .5rem 0;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	overflow: hidden;
+}
+
+.contact__item-title {
+	flex: 0 0 92px;
+}
+
+.contact__item-content {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+.company__item {
+	display: flex;
+	align-items: flex-start;
+	padding: 2rem 0;
+	gap: .5rem;
+}
+
+.company__item:not(:first-child) {
+	border-top: 1px solid var(--color-gray_weak);
+}
+
+.company__title-area {
+	flex: 0 0 200px;
+}
+
+.company__date {
+	opacity: .5;
+	font-style: italic;
+}
+
+.company__item .project:not(:first-child) {
+	margin-top: 3rem;
+}
+
+
+.projects > * {
+	padding: 2rem 0;
+	gap: .5rem;
+}
+
+.projects > *:not(:first-child) {
+	border-top: 1px solid var(--color-gray_weak);
+}
+
+
+.project > *:not(:first-child) {
+	margin-top: 1rem;
+}
+
+
+.tags {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: .25rem;
+}
+
+.tags p {
+	background-color: var(--color-gray);
+	color: var(--color-gray_strong);
+	padding: .25em .75em;
+	white-space: nowrap;
+	font-size: 0.75rem;
+	font-weight: 700;
+	line-height: 1.2;
+	border-radius: 1rem;
+}
+
+
+.images img {
+	width: 120px;
+	height: 72px;
+	object-fit: cover;
+	border-radius: .5rem;
+	cursor: pointer;
+	border: 1px solid var(--color-gray);
+}
+
+
+
+.skills {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4rem;
+}
+
+.skill-item h4 {
+	color: var(--color-primary);
+}
+
+.skill-item > *:not(:first-child) {
+	margin-top: .5em;
+}
+
+
+
+#modal {
+	opacity: 0;
+	pointer-events: none;;
+	transition: .3s;
+}
+
+#modal.show {
+	opacity: 1;
+	pointer-events: all;
+	cursor: url(arrow-x.png) 32 32, auto;
+}
+
+.modal__dim {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: var(--layer-modal);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal__container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: var(--layer-modal);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#modal__inner img {
+	min-width: 20vw;
+	max-width: 90vw;
+	min-height: 20vh;
+	max-height: 90vh;
+	border: 1px solid var(--color-gray);
+}
+
+
+
+
+@media screen and (max-width: 719px) {
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	h2::after {
+		margin: 0 auto;
+		margin-top: .5rem;
+	}
+
+
+	.company__item {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.company__title-area {
+		flex: auto;
+	}
+
+	.company__title-area h3 {
+		font-size: 2rem;
+	}
+
+	.skills {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+}
