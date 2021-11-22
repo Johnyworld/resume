@@ -80,6 +80,24 @@ section {
 }
 
 
+@media print {    
+	html {
+		font-size: 14px !important;
+	}
+	main {
+		padding: 0 !important;
+	}
+}
+
+
+main > section:nth-child(1) { page-break-before: none; } /* 소개 */
+main > section:nth-child(2) { page-break-before: none; } /* 근무경험 */
+main > section:nth-child(3) { page-break-before: always; } /* 개인 프로젝트 */
+main > section:nth-child(4) { page-break-before: none; } /* 토이 프로젝트 */
+main > section:nth-child(5) { page-break-before: none; } /* 보유기술 */
+main > section:nth-child(6) { page-break-before: always; } /* 기타 경력 | 학력 */
+main > section:nth-child(7) { page-break-before: none; } /* 그 밖의 관심사 */
+
 section > *:not(:first-child) {
 	margin-top: 2rem;
 }
@@ -328,8 +346,3 @@ span.quate {
 }
 
 
-@media print {    
-	html {
-		font-size: 16px !important;
-	}
-}
