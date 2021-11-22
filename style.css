@@ -79,6 +79,7 @@ section {
 	padding: 2rem 0;
 }
 
+
 section > *:not(:first-child) {
 	margin-top: 2rem;
 }
@@ -108,6 +109,10 @@ li:not(:first-child) {
 	margin-top: .25em;
 }
 
+hr {
+	opacity: .1;
+}
+
 main {
 	padding-top: 2rem;
 	padding-bottom: 4rem;
@@ -118,6 +123,10 @@ main {
 	margin: 0 auto;
 	padding-left: 1rem;
 	padding-right: 1rem;
+}
+
+.page-break {
+	page-break-before: always;
 }
 
 .desc {
@@ -208,7 +217,7 @@ span.quate {
 	color: var(--color-gray_strong);
 	padding: .25em .75em;
 	white-space: nowrap;
-	font-size: 13px;
+	font-size: .8rem;
 	font-weight: 700;
 	line-height: 1.2;
 	border-radius: 1rem;
@@ -316,4 +325,11 @@ span.quate {
 		gap: 2rem;
 	}
 
+}
+
+
+@media print {    
+	html {
+		font-size: 16px !important;
+	}
 }
