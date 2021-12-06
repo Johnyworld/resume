@@ -4,6 +4,7 @@
 :root {
 	--color-pencel: #4a5258;
 	--color-primary: #30aaf3;
+	--color-white: #fff;
 	--color-gray_weak: #ebf0f3;
 	--color-gray: #dfe7ed;
 	--color-gray_strong: #435b68;
@@ -151,7 +152,7 @@ main {
 }
 
 .desc > *:not(:first-child) {
-	margin-top: .5em;
+	margin-top: .75em;
 }
 
 span.quate {
@@ -229,7 +230,7 @@ span.quate {
 	gap: .25rem;
 }
 
-.tags p {
+.tag-item {
 	background-color: var(--color-gray);
 	color: var(--color-gray_strong);
 	padding: .25em .75em;
@@ -238,7 +239,18 @@ span.quate {
 	font-weight: 700;
 	line-height: 1.2;
 	border-radius: 1rem;
+
 }
+
+.tag-item.strong {
+	background-color: var(--color-primary);
+	color: var(--color-white)
+}
+
+.tag-item.weak {
+	background-color: var(--color-gray_weak);
+}
+
 
 
 .images img {
