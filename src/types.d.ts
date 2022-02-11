@@ -4,4 +4,9 @@ declare module 'types' {
     desc: string;
     href?: string;
   }
+
+  interface Introduce {
+    title?: string;
+    desc: string;
+  }
 }
