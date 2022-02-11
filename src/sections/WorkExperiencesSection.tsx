@@ -10,7 +10,7 @@ const WorkExperiencesSection: React.FC = () => {
     <Section>
       <Title>Work Experiences</Title>
       {workExps.map(workExp => (
-        <DescGrid>
+        <DescGrid key={workExp.company}>
           <div>
             <h3>{workExp.company}</h3>
             <p>{workExp.position}</p>
