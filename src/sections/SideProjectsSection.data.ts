@@ -23,6 +23,12 @@ const tumssum: Project = {
       href: 'https://tumssum.com',
     },
   ],
+  images: [
+    {
+      alt: 'tumssum-thumb-1',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/tumssum-1.jpg',
+    },
+  ],
   explanations: [
     '구글 스프레드시트로 가계부를 오랫동안 써 왔는데, 더 편리하게 가계부를 사용하고 싶다는 생각으로 개발중입니다. 최소 기능으로 먼저 배포하여 실제로 사용해보며 테스트 하고 있습니다. 달력, 보드 등에서 드래그 앤 드롭으로 쉽게 관리할 수 있습니다.',
   ],
@@ -52,6 +58,12 @@ const morgan: Project = {
       href: 'https://morganlaw.co.kr/',
     },
   ],
+  images: [
+    {
+      alt: 'morgan-thumb-1',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/morgan-1.jpg',
+    },
+  ],
   explanations: [
     '새로 사무실을 개업하는 변호사 지인의 부탁을 받아 작업한 사이트입니다. NextJS로 작업하였습니다. Serverless 라 그런건지 S3에 사진 업로드가 안돼서 고생 했던 기억이 생생합니다. 업로드용 EC2 서버를 따로 두는 방법으로 해결했습니다.',
   ],
@@ -68,6 +80,24 @@ const morgan: Project = {
 const daylog: Project = {
   name: 'Daylog (서비스 중지)',
   skills: ['React', 'NodeJS', 'GraphQL', 'Prisma', 'Apollo', 'HTML5 Canvas', 'Heroku', 'Sendgrid'],
+  images: [
+    {
+      alt: 'morgan-thumb-1',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/daylog-1.jpg',
+    },
+    {
+      alt: 'morgan-thumb-2',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/daylog-2.jpg',
+    },
+    {
+      alt: 'morgan-thumb-3',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/daylog-3.jpg',
+    },
+    {
+      alt: 'morgan-thumb-4',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/daylog-4.jpg',
+    },
+  ],
   explanations: [
     '시간단위 데일리 리포트를 클릭만으로 간편하게 쓸 수 있는 일정 관리 서비스. 기획부터 배포까지 모든 과정을 혼자서 진행했던 첫 프로젝트였습니다. GraphQL을 이해하는데에 많은 공부가 되었습니다.',
   ],
