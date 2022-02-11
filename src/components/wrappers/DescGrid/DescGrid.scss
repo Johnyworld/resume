@@ -1,0 +1,14 @@
+@import '../../../style/mixins';
+
+.desc-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+}
+
+@include maxMobile {
+  .desc-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
