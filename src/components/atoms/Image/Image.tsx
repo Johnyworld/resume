@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ImageType } from 'types';
-import { ModalContext } from '../../../App';
+import ModalContext from '../../../utils/modal/modal.context';
 import './Image.scss';
 
 export interface ImageProps {

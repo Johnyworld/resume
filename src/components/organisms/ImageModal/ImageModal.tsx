@@ -1,19 +1,17 @@
-import React, { useContext } from 'react';
-import { ModalContext } from '../../../App';
-import Portal from '../../../Portal';
+import React from 'react';
 import './ImageModal.scss';
 
-export interface ImageModalProps {}
+export interface ImageModalProps {
+  src: string;
+  onClose: () => void;
+}
 
-const ImageModal: React.FC<ImageModalProps> = ({}) => {
-  const { src, reset } = useContext(ModalContext);
-  return !src ? null : (
-    <Portal>
-      <div className='image-modal' onClick={reset}>
-        <div className='image-modal__dim' />
-        <img className='image-modal__image' src={src} alt='modal' />
-      </div>
-    </Portal>
+const ImageModal: React.FC<ImageModalProps> = ({ src, onClose }) => {
+  return (
+    <div className='image-modal' onClick={onClose}>
+      <div className='image-modal__dim' />
+      <img className='image-modal__image' src={src} alt='modal' />
+    </div>
   );
 };
 
