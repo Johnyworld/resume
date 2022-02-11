@@ -1,0 +1,21 @@
+.descriptions {
+  &__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+    &:not(:first-child) {
+      margin-top: 0.5rem;
+    }
+  }
+
+  &__title {
+    flex: 1 0 100px;
+    font-size: 14px;
+    font-weight: var(--font-bold);
+  }
+
+  &__desc {
+    flex: 100%;
+  }
+}
