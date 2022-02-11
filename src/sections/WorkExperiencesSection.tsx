@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from '../components/atoms/Title';
-import Projects from '../components/organisms/Projects';
-import DescGrid from '../components/wrappers/DescGrid';
+import WorkExperience from '../components/organisms/WorkExperience';
 import Section from '../components/wrappers/Section';
 import { workExps } from './WorkExperiencesSection.data';
 
@@ -10,16 +9,7 @@ const WorkExperiencesSection: React.FC = () => {
     <Section>
       <Title>Work Experiences</Title>
       {workExps.map(workExp => (
-        <DescGrid key={workExp.company}>
-          <div>
-            <h3>{workExp.company}</h3>
-            <p>{workExp.position}</p>
-            <p>
-              {workExp.from} - {workExp.to}
-            </p>
-          </div>
-          <Projects projects={workExp.projects} />
-        </DescGrid>
+        <WorkExperience workExp={workExp} />
       ))}
     </Section>
   );
