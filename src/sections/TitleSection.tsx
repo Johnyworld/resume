@@ -1,13 +1,10 @@
 import React from 'react';
 import Descriptions from '../components/atoms/Descriptions';
 import Introduces from '../components/atoms/Introduces';
-import DescGrid from '../components/wrappers/DescGrid';
 import Section from '../components/wrappers/Section';
 import { contact, introduce } from './TitleSection.data';
 
-export interface TitleSectionProps {}
-
-const TitleSection: React.FC<TitleSectionProps> = () => {
+const TitleSection: React.FC = () => {
   return (
     <Section>
       <div>

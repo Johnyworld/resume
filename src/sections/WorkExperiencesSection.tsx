@@ -5,9 +5,7 @@ import DescGrid from '../components/wrappers/DescGrid';
 import Section from '../components/wrappers/Section';
 import { workExps } from './WorkExperiencesSection.data';
 
-export interface WorkExperiencesSectionProps {}
-
-const WorkExperiencesSection: React.FC<WorkExperiencesSectionProps> = ({}) => {
+const WorkExperiencesSection: React.FC = () => {
   return (
     <Section>
       <Title>Work Experiences</Title>

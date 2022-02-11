@@ -22,6 +22,7 @@ declare module 'types' {
     name: string;
     skills?: string[];
     descriptions?: Description[];
+    images?: string[];
     explanations?: string[];
     dids?: string[];
   }
