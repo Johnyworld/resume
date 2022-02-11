@@ -1,0 +1,30 @@
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--layer-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: url('../../../images/arrow-x.png') 32 32, auto;
+
+  &__dim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__image {
+    position: relative;
+    min-width: 20vw;
+    max-width: 90vw;
+    min-height: 20vh;
+    max-height: 90vh;
+    border: 1px solid var(--color-gray);
+  }
+}

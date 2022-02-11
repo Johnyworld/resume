@@ -22,8 +22,13 @@ declare module 'types' {
     name: string;
     skills?: string[];
     descriptions?: Description[];
-    images?: string[];
+    images?: ImageType[];
     explanations?: string[];
     dids?: string[];
+  }
+
+  interface ImageType {
+    alt: string;
+    src: string;
   }
 }
