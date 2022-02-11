@@ -8,8 +8,11 @@ const TitleSection: React.FC = () => {
   return (
     <Section>
       <div>
-        <h1>사용자 중심.</h1>
-        <h2>웹 프론트엔드 개발자 김재환이에요.</h2>
+        <h1>
+          <strong>사용자 중심.</strong>
+          <br />웹 프론트엔드 개발자 <br />
+          김재환
+        </h1>
       </div>
       <Introduces introduces={introduce} />
       <Descriptions descriptions={contact} />

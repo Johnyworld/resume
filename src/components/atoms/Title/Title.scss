@@ -1,3 +1,20 @@
 .title {
-  font-size: 28px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5rem;
+
+  &__title {
+    color: var(--color-primary);
+    background: -webkit-linear-gradient(45deg, var(--color-primary), #7472ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__element {
+    position: absolute;
+    bottom: 0.625rem;
+    right: -0.25rem;
+    display: block;
+    transform: translateX(100%);
+  }
 }
