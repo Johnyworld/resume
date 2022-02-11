@@ -9,4 +9,20 @@ declare module 'types' {
     title?: string;
     desc: string;
   }
+
+  interface WorkExp {
+    company: string;
+    position: string;
+    from: string;
+    to: string;
+    projects: Project[];
+  }
+
+  interface Project {
+    name: string;
+    skills?: string[];
+    descriptions?: Description[];
+    explanations?: string[];
+    dids?: string[];
+  }
 }
