@@ -8,8 +8,10 @@ export interface UnorderedListProps {
 const UnorderedList: React.FC<UnorderedListProps> = ({ list }) => {
   return (
     <ul className='unordered-list'>
-      {list.map(item => (
-        <li className='unordered-list__item'>{item}</li>
+      {list.map((item, i) => (
+        <li key={item} className='unordered-list__item'>
+          {item}
+        </li>
       ))}
     </ul>
   );

@@ -10,7 +10,7 @@ const Introduces: React.FC<IntroducesProps> = ({ introduces }) => {
   return (
     <div className='introduces'>
       {introduces.map(introduce => (
-        <div className='introduces__item'>
+        <div className='introduces__item' key={introduce.title || introduce.desc}>
           {introduce.title && <h3 className='introduces__title'>{introduce.title}</h3>}
           <p className='introduces__desc'>{introduce.desc}</p>
         </div>

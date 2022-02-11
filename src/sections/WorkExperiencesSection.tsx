@@ -9,7 +9,7 @@ const WorkExperiencesSection: React.FC = () => {
     <Section>
       <Title>Work Experiences</Title>
       {workExps.map(workExp => (
-        <WorkExperience workExp={workExp} />
+        <WorkExperience key={workExp.company} workExp={workExp} />
       ))}
     </Section>
   );

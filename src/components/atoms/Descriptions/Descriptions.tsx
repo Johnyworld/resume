@@ -10,7 +10,7 @@ const Descriptions: React.FC<DescriptionsProps> = ({ descriptions }) => {
   return (
     <div className='descriptions'>
       {descriptions.map(description => (
-        <dl className='descriptions__item'>
+        <dl key={description.title} className='descriptions__item'>
           <dt className='descriptions__title'>{description.title}</dt>
           {description.href ? (
             <dd className='descriptions__desc'>
