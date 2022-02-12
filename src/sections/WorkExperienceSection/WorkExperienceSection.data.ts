@@ -1,6 +1,6 @@
 import { WorkExp } from 'types';
 
-export const workExps: WorkExp[] = [
+export const workExp: WorkExp[] = [
   {
     company: '언디파인드',
     position: 'Frontend Developer',

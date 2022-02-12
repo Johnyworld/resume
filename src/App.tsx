@@ -1,9 +1,9 @@
-import OtherExperiencesSection from './sections/OtherExperiencesSection';
+import OtherExperienceSection from './sections/OtherExperienceSection';
 import SideProjectsSection from './sections/SideProjectsSection';
 import SkillSection from './sections/SkillsSection';
 import TitleSection from './sections/TitleSection';
 import ToyProjectsSection from './sections/ToyProjectsSection';
-import WorkExperiencesSection from './sections/WorkExperiencesSection';
+import WorkExperienceSection from './sections/WorkExperienceSection';
 import ModalContextProvider from './utils/modal/modal.provider';
 import ModalRender from './utils/modal/modal.render';
 
@@ -13,10 +13,10 @@ function App() {
       <div className='App'>
         <TitleSection />
         <SkillSection />
-        <WorkExperiencesSection />
+        <WorkExperienceSection />
         <SideProjectsSection />
         <ToyProjectsSection />
-        <OtherExperiencesSection />
+        <OtherExperienceSection />
       </div>
       <ModalRender />
     </ModalContextProvider>

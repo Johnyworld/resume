@@ -35,4 +35,4 @@ const induk: Project = {
   dids: ['2013. 02 졸업', '4.1 / 4.5'],
 };
 
-export const otherExperiences = [cross, bgn, aire, induk];
+export const otherExperience = [cross, bgn, aire, induk];

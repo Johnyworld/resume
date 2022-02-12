@@ -1,7 +1,7 @@
 import React from 'react';
-import Title from '../components/atoms/Title';
-import DescGrid from '../components/wrappers/DescGrid';
-import Section from '../components/wrappers/Section';
+import Title from '../../components/atoms/Title';
+import DescGrid from '../../components/wrappers/DescGrid';
+import Section from '../../components/wrappers/Section';
 import { backend, frontend } from './SkillsSection.data';
 
 const SkillsSection: React.FC = () => {
