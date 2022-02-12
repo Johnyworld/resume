@@ -2,14 +2,8 @@ import { Project } from 'types';
 
 const modernPirates: Project = {
   name: 'Modern Pirates',
+  link: 'http://modern-pirates.s3-website.ap-northeast-2.amazonaws.com/',
   skills: ['Javascript', 'HTML5 Canvas'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://modern-pirates.s3-website.ap-northeast-2.amazonaws.com/',
-      href: 'http://modern-pirates.s3-website.ap-northeast-2.amazonaws.com/',
-    },
-  ],
   images: [
     {
       alt: 'modern-pirates-thumb-1',
@@ -47,14 +41,8 @@ const gangsOfGalaxy: Project = {
 
 const rpgMoving: Project = {
   name: 'RPG Moving',
+  link: 'http://rpg-moving.s3-website.ap-northeast-2.amazonaws.com/',
   skills: ['Javascript', 'HTML5 Canvas'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://rpg-moving.s3-website.ap-northeast-2.amazonaws.com/',
-      href: 'http://rpg-moving.s3-website.ap-northeast-2.amazonaws.com/',
-    },
-  ],
   images: [
     {
       alt: 'rpg-thumb-1',
@@ -66,14 +54,8 @@ const rpgMoving: Project = {
 
 const conv250: Project = {
   name: 'Conversation Staters 250',
+  link: 'http://conv-250.s3-website.ap-northeast-2.amazonaws.com/',
   skills: ['Javascript'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://conv-250.s3-website.ap-northeast-2.amazonaws.com/',
-      href: 'http://conv-250.s3-website.ap-northeast-2.amazonaws.com/',
-    },
-  ],
   explanations: [
     '보드게임 Dead of Winter를 플레이 하면서, 기본으로 제공되는 카드 덱의 불편함을 개선하고자 개발했습니다. 직접 사용하기 위해 만드는 애플리케이션 만큼 재미있는 개발도 없는 것 같습니다.',
   ],
@@ -81,14 +63,8 @@ const conv250: Project = {
 
 const dowCross: Project = {
   name: 'DOW Crossroad Cards',
+  link: 'http://dow-crossroad.s3-website.ap-northeast-2.amazonaws.com',
   skills: ['Javascript'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://dow-crossroad.s3-website.ap-northeast-2.amazonaws.com/',
-      href: 'http://dow-crossroad.s3-website.ap-northeast-2.amazonaws.com/',
-    },
-  ],
   explanations: [
     '보드게임 Dead of Winter를 플레이 하면서, 기본으로 제공되는 카드 덱의 불편함을 개선하고자 개발했습니다. 직접 사용하기 위해 만드는 애플리케이션 만큼 재미있는 개발도 없는 것 같습니다.',
   ],
@@ -96,14 +72,8 @@ const dowCross: Project = {
 
 const johnyworld2019: Project = {
   name: 'Johnyworld 2019',
+  link: 'http://johnyworld.com',
   skills: ['React', 'Javascript'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://johnyworld.com/',
-      href: 'http://johnyworld.com/',
-    },
-  ],
   images: [
     {
       alt: 'johnyworld2019-thumb-1',
@@ -121,14 +91,8 @@ const johnyworld2019: Project = {
 
 const johnyworld2018: Project = {
   name: 'Johnyworld 2018',
+  link: 'http://johnyworld.com/2018',
   skills: ['jQuery'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'http://johnyworld.com/2018',
-      href: 'http://johnyworld.com/2018',
-    },
-  ],
   images: [
     {
       alt: 'johnyworld2018-thumb-1',

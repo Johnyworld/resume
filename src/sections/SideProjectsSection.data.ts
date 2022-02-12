@@ -2,6 +2,7 @@ import { Project } from 'types';
 
 const tumssum: Project = {
   name: '틈씀이 가계부 (Beta)',
+  link: 'https://tumssum.com',
   skills: [
     'Typescript',
     'Preact',
@@ -15,13 +16,6 @@ const tumssum: Project = {
     'AWS EC2',
     'AWS Route53',
     'AWS RDS - MySQL',
-  ],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'https://tumssum.com',
-      href: 'https://tumssum.com',
-    },
   ],
   images: [
     {
@@ -50,14 +44,8 @@ const tumssum: Project = {
 
 const morgan: Project = {
   name: '법률사무소 모건 홈페이지 개발',
+  link: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/morgan-1.jpg',
   skills: ['NextJS', 'AWS EC2', 'AWS S3', 'AWS RDS - MariaDB', 'Netlify', 'Vercel', 'Sendgrid'],
-  descriptions: [
-    {
-      title: 'Site',
-      desc: 'https://morganlaw.co.kr/',
-      href: 'https://morganlaw.co.kr/',
-    },
-  ],
   images: [
     {
       alt: 'morgan-thumb-1',

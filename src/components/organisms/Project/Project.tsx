@@ -11,10 +11,16 @@ export interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
-  const { name, skills, descriptions, images, explanations, dids } = project;
+  const { name, link, skills, descriptions, images, explanations, dids } = project;
   return (
     <div className='project'>
-      <h3>{name}</h3>
+      {link ? (
+        <a href={link} rel='noreferrer' target='_blank'>
+          <h3>{name}</h3>
+        </a>
+      ) : (
+        <h3>{name}</h3>
+      )}
       {skills && <SkillTags skills={skills} />}
       {descriptions && <Descriptions descriptions={descriptions} />}
       {images && <Images images={images} />}

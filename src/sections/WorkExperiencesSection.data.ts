@@ -9,6 +9,7 @@ export const workExps: WorkExp[] = [
     projects: [
       {
         name: 'iScrim E-Sports Platform',
+        link: 'https://www.iscrim.com/Intro',
         skills: ['Typescript', 'React', 'Styled Component', 'SVG', 'Canvas', 'Storybook', 'MobX', 'I18Next'],
         explanations: [
           '전 세계 아마추어 E-Sports 생태계를 만들기 위해 시작 된 서비스로, MAU 30,000 달성중인 iScrim E-Sports Platform 입니다.',

@@ -20,6 +20,7 @@ declare module 'types' {
 
   interface Project {
     name: string;
+    link?: string;
     skills?: string[];
     descriptions?: Description[];
     images?: ImageType[];
