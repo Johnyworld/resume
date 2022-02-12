@@ -10,11 +10,11 @@ const SkillsSection: React.FC = () => {
       <Title>Skills</Title>
       <DescGrid>
         <h4>Frontend</h4>
-        <p>{frontend.join(', ')}</p>
+        <p>{frontend.join(' | ')}</p>
       </DescGrid>
       <DescGrid>
         <h4>Backend & DevObs</h4>
-        <p>{backend.join(', ')}</p>
+        <p>{backend.join(' | ')}</p>
       </DescGrid>
     </Section>
   );
