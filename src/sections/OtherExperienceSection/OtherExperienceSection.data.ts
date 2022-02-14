@@ -35,4 +35,17 @@ const induk: Project = {
   dids: ['2013. 02 졸업', '4.1 / 4.5'],
 };
 
-export const otherExperience = [cross, bgn, aire, induk];
+const awards: Project = {
+  name: '대회 수상',
+  dids: [
+    '2013 한국생산성본부 통합포스터 공모전 <대상>',
+    '2002 국민대학교 발상과표현 <대상>',
+    '2012 전국대학생디자인과제전 특별상',
+    '2012 전국대학(원)생디자인공모전 특별상',
+    '2012 SOKI국제일러스트&디자인공모전 특선',
+    '2011 전국회룡미술대전 특선',
+    '그 외 15개 전국대회에서 입선 수상',
+  ],
+};
+
+export const otherExperience = [cross, bgn, aire, induk, awards];
