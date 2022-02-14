@@ -7,7 +7,7 @@ import { toyProjects } from './ToyProjectsSection.data';
 const ToyProjectsSection: React.FC = () => {
   return (
     <Section>
-      <Title>Toy Projects</Title>
+      <Title>Toy Projects.</Title>
       <Projects projects={toyProjects} />
     </Section>
   );

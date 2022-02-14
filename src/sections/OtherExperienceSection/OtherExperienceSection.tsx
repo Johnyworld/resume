@@ -7,7 +7,7 @@ import { otherExperience } from './OtherExperienceSection.data';
 const OtherExperienceSection: React.FC = () => {
   return (
     <Section>
-      <Title>Other Experience | Education</Title>
+      <Title>Other Experience | Education.</Title>
       <Projects projects={otherExperience} />
     </Section>
   );

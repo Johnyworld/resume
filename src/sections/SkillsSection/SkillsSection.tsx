@@ -7,7 +7,7 @@ import { backend, frontend } from './SkillsSection.data';
 const SkillsSection: React.FC = () => {
   return (
     <Section>
-      <Title>Skills</Title>
+      <Title>Skills.</Title>
       <DescGrid>
         <h4>Frontend</h4>
         <p>{frontend.join(' | ')}</p>

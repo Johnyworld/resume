@@ -4,6 +4,7 @@
   padding-bottom: 0.5rem;
 
   &__title {
+    line-height: 1.2;
     color: var(--color-primary);
     background: -webkit-linear-gradient(45deg, var(--color-primary), #7472ff 80%);
     -webkit-background-clip: text;

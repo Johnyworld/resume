@@ -7,7 +7,7 @@ import { workExp } from './WorkExperienceSection.data';
 const WorkExperienceSection: React.FC = () => {
   return (
     <Section pageBreak>
-      <Title>Work Experience</Title>
+      <Title>Work Experience.</Title>
       {workExp.map(exp => (
         <WorkExperience key={exp.company} workExp={exp} />
       ))}

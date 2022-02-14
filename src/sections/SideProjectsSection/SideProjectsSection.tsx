@@ -7,7 +7,7 @@ import { sideProjects } from './SideProjectsSection.data';
 const SideProjectsSection: React.FC = () => {
   return (
     <Section pageBreak>
-      <Title>Side Projects</Title>
+      <Title>Side Projects.</Title>
       <Projects projects={sideProjects} />
     </Section>
   );
