@@ -25,11 +25,18 @@ declare module 'types' {
     descriptions?: Description[];
     images?: ImageType[];
     explanations?: string[];
-    dids?: string[];
+    dids?: UnorderedItem[];
   }
 
   interface ImageType {
     alt: string;
     src: string;
   }
+
+  type UnorderedItem =
+    | string
+    | {
+        content: string;
+        link: string;
+      };
 }

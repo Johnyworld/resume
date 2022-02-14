@@ -36,7 +36,10 @@ const tumssum: Project = {
     'Atomic Design System',
     'SVG 그래프',
     'HTTPS',
-    '관계형 데이터 (https://drawsql.app/johnyworld/diagrams/tumssum#)',
+    {
+      content: '관계형 데이터',
+      link: 'https://drawsql.app/johnyworld/diagrams/tumssum#',
+    },
     '아이콘 세트 제작',
     'Storybook 컴포넌트 문서화',
     '반응형 웹',

@@ -3,9 +3,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1px;
+    gap: 1rem;
     &:not(:first-child) {
-      margin-top: 0.5rem;
+      margin-top: 0.75rem;
     }
   }
 
@@ -18,5 +18,7 @@
   &__desc {
     flex: 100%;
     color: var(--color-pencel);
+    word-break: break-all;
+    line-height: 1.2;
   }
 }
