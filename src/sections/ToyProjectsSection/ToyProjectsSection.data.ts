@@ -57,7 +57,7 @@ const conv250: Project = {
   link: 'http://conv-250.s3-website.ap-northeast-2.amazonaws.com/',
   skills: ['Javascript'],
   explanations: [
-    '보드게임 Dead of Winter를 플레이 하면서, 기본으로 제공되는 카드 덱의 불편함을 개선하고자 개발했습니다. 직접 사용하기 위해 만드는 애플리케이션 만큼 재미있는 개발도 없는 것 같습니다.',
+    '영어 회화를 공부하는 사람들을 위해 만들었습니다. 어떤 주제로 대화를 해야할지 떠오르지 않는 경우 유용합니다.',
   ],
 };
 

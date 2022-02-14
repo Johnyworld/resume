@@ -45,7 +45,7 @@ const tumssum: Project = {
 
 const morgan: Project = {
   name: '법률사무소 모건 홈페이지 개발',
-  link: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/morgan-1.jpg',
+  link: 'https://morganlaw.co.kr',
   skills: ['NextJS', 'AWS EC2', 'AWS S3', 'AWS RDS - MariaDB', 'Netlify', 'Vercel', 'Sendgrid'],
   images: [
     {
