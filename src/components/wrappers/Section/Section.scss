@@ -12,6 +12,10 @@
       margin-top: 2rem;
     }
   }
+
+  &--page-break {
+    page-break-before: always;
+  }
 }
 
 @include maxMobile {
