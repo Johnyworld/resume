@@ -1,0 +1,12 @@
+@import '../../../style/mixins';
+
+@include maxMobile {
+  .work-experience {
+    &__company-name {
+      border-bottom: 8px solid #ffe426;
+      line-height: 0.5;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+  }
+}
