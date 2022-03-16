@@ -52,6 +52,19 @@ const rpgMoving: Project = {
   dids: ['충돌판정 구현', '움직임 애니메이션 구현'],
 };
 
+const reactDrag: Project = {
+  name: 'React Drag',
+  link: 'https://johnyworld.github.io/react-drag',
+  skills: ['React'],
+  images: [
+    {
+      alt: 'react-drag-thumb-1',
+      src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/react-drag-thumb-1-min.png',
+    },
+  ],
+  explanations: ['리액트로 드래그 기능 가지고 놀기'],
+};
+
 const conv250: Project = {
   name: 'Conversation Staters 250',
   link: 'http://conv-250.s3-website.ap-northeast-2.amazonaws.com/',
@@ -112,6 +125,7 @@ export const toyProjects: Project[] = [
   modernPirates,
   gangsOfGalaxy,
   rpgMoving,
+  reactDrag,
   conv250,
   dowCross,
   johnyworld2019,
