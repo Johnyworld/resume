@@ -53,8 +53,8 @@ const rpgMoving: Project = {
 };
 
 const reactDrag: Project = {
-  name: 'React Drag',
-  link: 'https://johnyworld.github.io/react-drag',
+  name: 'React UI playground',
+  link: 'https://johnyworld.github.io/react-ui-playground/',
   skills: ['React'],
   images: [
     {
@@ -62,7 +62,7 @@ const reactDrag: Project = {
       src: 'https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/react-drag-thumb-1-min.png',
     },
   ],
-  explanations: ['리액트로 드래그 기능 가지고 놀기'],
+  explanations: ['리액트 UI 연습 공간'],
 };
 
 const conv250: Project = {
