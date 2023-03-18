@@ -14,9 +14,14 @@ export const workExp: WorkExp[] = [
       },
       {
         name: 'Time tracking',
+        skills: ['Typescript', 'React', 'Tanstack Query', 'Styled Components', 'Micro Frontend', 'Radix UI'],
         explanations: [
-          '기업 구성원의 근무, 휴가 등 구성원 평가의 근거가 되는 부분들에 대한 문제를 해결합니다. 믿을만한 동료들과 함께 Time Tracking 제품을 함께 만들어 갑니다.',
+          'flex 제품 내에서 가장 많은 유저들이 사용하는 Time Tracking 제품은 구성원 평가의 근거가 되는 근무, 휴가와 같은 근태관리에 대한 문제를 해결합니다.',
         ],
+        dids: [
+          '유저들의 목소리를 듣고, 문제를 찾아 제품을 개선합니다.',
+          '시간과 관련 된 복잡한 문제들을 해결합니다.'
+        ]
       },
     ],
   },
@@ -29,7 +34,7 @@ export const workExp: WorkExp[] = [
       {
         name: 'iScrim E-Sports Platform',
         link: 'https://www.iscrim.com/Intro',
-        skills: ['Typescript', 'React', 'Styled Component', 'SVG', 'Canvas', 'Storybook', 'MobX', 'I18Next'],
+        skills: ['Typescript', 'React', 'Styled Components', 'SVG', 'Canvas', 'Storybook', 'MobX', 'I18Next'],
         explanations: [
           '전 세계 아마추어 E-Sports 생태계를 만들기 위해 시작 된 서비스입니다. 초기 멤버로서, 프론트엔드 전반적인 부분을 리드 했으며 MAU 30,000 을 달성하였습니다.',
         ],
