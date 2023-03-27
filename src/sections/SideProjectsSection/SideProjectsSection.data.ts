@@ -119,4 +119,4 @@ const daylog: Project = {
   ]
 };
 
-export const sideProjects: Project[] = [tumssum, morgan, daylog];
+export const sideProjects: Project[] = [tumssum, morgan];
