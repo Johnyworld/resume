@@ -1,0 +1,27 @@
+.skill-tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+
+  &__tag {
+    background-color: var(--color-gray);
+    color: var(--color-pencel);
+    padding: 0.25em 0.75em 0.125em;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    border-radius: 1rem;
+
+    &--strong {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+
+    &--weak {
+      background-color: var(--color-gray_weak);
+    }
+  }
+}
