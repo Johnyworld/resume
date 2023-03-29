@@ -1,14 +1,14 @@
-import React from 'react';
-import Title from '../../components/atoms/Title';
-import Projects from '../../components/organisms/Projects';
-import Section from '../../components/wrappers/Section';
-import { sideProjects } from './SideProjectsSection.data';
+import React from "react";
+import Markdown from "../../components/atoms/Markdown";
+import Title from "../../components/atoms/Title";
+import Section from "../../components/wrappers/Section";
+import { sideProjects } from "./SideProjectsSection.data";
 
 const SideProjectsSection: React.FC = () => {
   return (
     <Section pageBreak>
       <Title>Side Projects.</Title>
-      <Projects projects={sideProjects} />
+      <Markdown>{sideProjects}</Markdown>
     </Section>
   );
 };
