@@ -1,9 +1,9 @@
-import React from 'react';
-import Descriptions from '../../components/atoms/Descriptions';
-import Introduces from '../../components/atoms/Introduces';
-import MainTitle from '../../components/organisms/MainTitle';
-import Section from '../../components/wrappers/Section';
-import { contact, introduce } from './TitleSection.data';
+import React from "react";
+import Descriptions from "../../components/atoms/Descriptions";
+import Introduces from "../../components/atoms/Introduces";
+import MainTitle from "../../components/organisms/MainTitle";
+import Section from "../../components/wrappers/Section";
+import { contact, introduce } from "../../data/TitleSection.data";
 
 const TitleSection: React.FC = () => {
   return (
