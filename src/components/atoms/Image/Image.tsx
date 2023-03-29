@@ -1,17 +1,21 @@
-import React, { useContext } from 'react';
-import { ImageType } from 'types';
-import ModalContext from '../../../utils/modal/modal.context';
-import './Image.scss';
+import React, { useContext } from "react";
+import ModalContext from "../../../utils/modal/modal.context";
+import "./Image.scss";
 
-export interface ImageProps {
-  image: ImageType;
-}
+export interface ImageProps
+  extends Omit<
+    React.DetailedHTMLProps<
+      React.ImgHTMLAttributes<HTMLImageElement>,
+      HTMLImageElement
+    >,
+    "onClick" | "className"
+  > {}
 
-const Image: React.FC<ImageProps> = ({ image }) => {
-  const { alt, src } = image;
+const Image: React.FC<ImageProps> = ({ ...props }) => {
+  const { alt, src } = props;
   const { open } = useContext(ModalContext);
-  const handleClick = () => open(src);
-  return <img className='image' alt={alt} src={src} onClick={handleClick} />;
+  const handleClick = () => src && open(src);
+  return <img {...props} alt={alt} className="image" onClick={handleClick} />;
 };
 
 export default Image;
