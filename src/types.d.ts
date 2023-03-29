@@ -18,25 +18,8 @@ declare module "types" {
     content: string;
   }
 
-  interface Project {
-    name: string;
-    link?: string;
-    skills?: string[];
-    descriptions?: Description[];
-    images?: ImageType[];
-    explanations?: string[];
-    dids?: UnorderedItem[];
-  }
-
   interface ImageType {
     alt: string;
     src: string;
   }
-
-  type UnorderedItem =
-    | string
-    | {
-        content: string;
-        link: string;
-      };
 }
