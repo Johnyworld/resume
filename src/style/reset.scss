@@ -1,10 +1,10 @@
-@import './mixins';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap');
+@import "./mixins";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap");
 
 html,
 body {
-  font-family: 'IBM Plex Sans Thai Looped', 'Noto Sans KR', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", "Noto Sans KR", sans-serif;
 }
 
 body,
@@ -31,7 +31,7 @@ ul {
 
 li {
   color: var(--color-pencel);
-  line-height: 1.2;
+  line-height: 1.4;
   word-break: break-all;
   &:not(:first-child) {
     margin-top: 0.625em;

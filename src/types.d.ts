@@ -1,4 +1,4 @@
-declare module 'types' {
+declare module "types" {
   interface Description {
     title: string;
     desc: string;
@@ -15,7 +15,7 @@ declare module 'types' {
     position: string;
     from: string;
     to: string;
-    projects: Project[];
+    content: string;
   }
 
   interface Project {
