@@ -34,7 +34,7 @@ li {
   line-height: 1.4;
   word-break: break-all;
   &:not(:first-child) {
-    margin-top: 0.625em;
+    margin-top: 0.5em;
   }
 }
 
@@ -78,5 +78,23 @@ p strong {
 @include maxMobile {
   h1 {
     font-size: 32px;
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+
+  tr:not(:first-child) td {
+    padding-top: 8px;
+  }
+
+  td {
+    padding: 0;
+    vertical-align: top;
+
+    &:not(:first-child) {
+      padding-left: 20px;
+    }
   }
 }

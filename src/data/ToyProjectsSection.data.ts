@@ -21,7 +21,7 @@ const gangsOfGalaxy = `
 </div>
 
 ![gog-thumb-1](https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/gog-3.gif)
-![gog-thumb-2](https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/gog-1.gif)
+![gog-thumb-2](https://johnyworld2019.s3.ap-northeast-2.amazonaws.com/images/resume/gog-1.jpg)
 
 멀티 플레이어 게임을 만들어보고 싶어서 개발을 시작했습니다. 주요 기능들과 간단한 전투 정도만 구현 한 다음 잠시 개발을 중단 한 상태입니다. 중단 한 이유는, 아무래도 게임 개발은 본업보다는 취미에 가깝고 지금은 본업을 위한 스킬을 더 배워야 할 시기라고 판단했기 때문입니다. 여유가 조금 생기면 꼭 완성하고 싶습니다.
 
