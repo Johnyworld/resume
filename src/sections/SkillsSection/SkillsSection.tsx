@@ -4,9 +4,13 @@ import DescGrid from "../../components/wrappers/DescGrid";
 import Section from "../../components/wrappers/Section";
 import { backend, frontend } from "../../data/SkillsSection.data";
 
-const SkillsSection: React.FC = () => {
+interface Props {
+  pageBreak?: boolean;
+}
+
+const SkillsSection = ({ pageBreak }: Props) => {
   return (
-    <Section>
+    <Section pageBreak={pageBreak}>
       <Title>Skills.</Title>
       <DescGrid>
         <h4>Frontend</h4>

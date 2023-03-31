@@ -4,9 +4,13 @@ import WorkExperience from "../../components/organisms/WorkExperience";
 import Section from "../../components/wrappers/Section";
 import { workExp } from "../../data/WorkExperienceSection.data";
 
-const WorkExperienceSection: React.FC = () => {
+interface Props {
+  pageBreak?: boolean;
+}
+
+const WorkExperienceSection = ({ pageBreak }: Props) => {
   return (
-    <Section pageBreak>
+    <Section pageBreak={pageBreak}>
       <Title>Work Experience.</Title>
       {workExp.map((exp) => (
         <WorkExperience key={exp.company} workExp={exp} />
