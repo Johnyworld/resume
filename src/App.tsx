@@ -6,7 +6,7 @@ import ModalContextProvider from './utils/modal/modal.provider';
 import ModalRender from './utils/modal/modal.render';
 import { sideProjects } from './data/SideProjectsSection.data';
 import { toyProjects } from './data/ToyProjectsSection.data';
-import { otherExperience } from './data/OtherExperienceSection.data';
+import { OtherExperienceSection } from './sections/OtherExperience';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <WorkExperienceSection />
         <MarkdownSection title='Side Projects.' markdown={sideProjects} />
         <MarkdownSection title='Toy Projects.' markdown={toyProjects} />
-        <MarkdownSection title='Other Experience | Education.' markdown={otherExperience} />
+        <OtherExperienceSection />
       </div>
       <ModalRender />
     </ModalContextProvider>
