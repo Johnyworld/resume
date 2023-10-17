@@ -1,4 +1,4 @@
-declare module "types" {
+declare module 'types' {
   interface WorkExp {
     company: string;
     position: string;
@@ -6,4 +6,9 @@ declare module "types" {
     to: string;
     content: string;
   }
+}
+
+declare module '*.md' {
+  const value: string;
+  export default value;
 }
