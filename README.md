@@ -6,4 +6,16 @@ Github: [https://github.com/Johnyworld](https://github.com/Johnyworld)
 
 Velog: [https://velog.io/@johnyworld](https://velog.io/@johnyworld)
 
-2019 Portfolio: [https://velog.io/@johnyworld](http://johnyworld.com)
+### 개발 서버 열기
+
+```
+$ yarn start
+```
+
+### 배포하기
+
+https://johnyworld.github.io/resume/ 에 배포합니다.
+
+```
+$ yarn deploy
+```
