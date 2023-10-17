@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import MarkdownSection from './MarkdownSection';
+import MarkdownSection from '../components/organisms/MarkdownSection';
 import otherExerienceMarkdown from '../data/other.md';
 
 export const OtherExperienceSection = () => {

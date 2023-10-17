@@ -1,6 +1,6 @@
-import Markdown from "../../components/atoms/Markdown";
-import Title from "../../components/atoms/Title";
-import Section from "../../components/wrappers/Section";
+import Markdown from '../../atoms/Markdown';
+import Title from '../../atoms/Title';
+import Section from '../../wrappers/Section';
 
 interface Props {
   title: string;

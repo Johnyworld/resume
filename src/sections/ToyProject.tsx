@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import MarkdownSection from './MarkdownSection';
+import MarkdownSection from '../components/organisms/MarkdownSection';
 import toyProjectMarkdown from '../data/toy-project.md';
 
 export const ToyProjectSection = () => {
