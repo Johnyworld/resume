@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.ea33af27.css",
-    "main.js": "/resume/static/js/main.a4ec99b3.js",
+    "main.css": "/resume/static/css/main.6725d544.css",
+    "main.js": "/resume/static/js/main.b8578187.js",
     "static/js/27.db6db9e3.chunk.js": "/resume/static/js/27.db6db9e3.chunk.js",
     "static/media/profile.png": "/resume/static/media/profile.4776cb5f695c33efd2c2.png",
+    "static/media/toy-project.md": "/resume/static/media/toy-project.e94d9ac2cab25a55273d.md",
+    "static/media/other.md": "/resume/static/media/other.ffa9573c7a2ffa34a239.md",
     "index.html": "/resume/index.html"
   },
   "entrypoints": [
-    "static/css/main.ea33af27.css",
-    "static/js/main.a4ec99b3.js"
+    "static/css/main.6725d544.css",
+    "static/js/main.b8578187.js"
   ]
 }
